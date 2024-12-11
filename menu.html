@@ -1,0 +1,105 @@
+<!--       This HTML file serves as the main interface for the user to view Gary Blue's menu and prices.
+group: Stephen Badcock and Mimya Hafiz
+Sprint 1 Oct 24.  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Stephen Badcock">
+    <meta name="description" content="The official website of Gary Blue's Diner">
+    <meta name="keywords" content="Gary Blue's, Diner, Chicken, Fastfood">
+    <title>Menu</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <main>
+        <div class="main-container">
+            <header>
+                <nav>
+                    <div class="nav_logo">
+                        <a href="./index.html">
+                            <img src="./images/logo1.jpg" alt="Logo" height="100">
+                        </a>
+                    </div>
+                    <div class="nav_links">
+                        <a href="./index.html">Home</a>
+                        <a href="./menu.html">Menu</a>
+                        <a href="./contact.html">Contact</a>
+                        <a href="./about.html">About</a>
+                    </div>
+                    <div class="nav_order">
+                        <a href="./order.html">Order</a>
+                    </div>
+                </nav>
+            </header>
+
+            <!-- Carousel Section -->
+            <section aria-label="Menu Items Carousel">
+                <div id="carousel-container">
+                    <div id="carousel">
+                        <!-- Carousel Item 1 -->
+                        <article class="carousel-item">
+                            <figure>
+                                <img src="./images/gravy.webp" alt="Gravy">
+                                <figcaption class="oval">Gravy<br>$2.00</figcaption>
+                            </figure>
+                        </article>
+                        <!-- Carousel Item 2 -->
+                        <article class="carousel-item">
+                            <figure>
+                                <img src="./images/coleslaw.webp" alt="Coleslaw">
+                                <figcaption class="oval">Coleslaw<br>$2.00</figcaption>
+                            </figure>
+                        </article>
+                        <!-- Carousel Item 3 -->
+                        <article class="carousel-item">
+                            <figure>
+                                <img src="./images/mashedPotatoes.webp" alt="Mashed Potatoes">
+                                <figcaption class="oval">Mashed Potatoes<br>$1.00</figcaption>
+                            </figure>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Details Section for Selected Menu Item -->
+            <section aria-labelledby="details-heading">
+                <article id="details">
+                    <figure class="food-image">
+                        <img src="./images/gravy.webp" alt="Gravy" width="300">
+                    </figure>
+                    <div class="food-description">
+                        <h2 id="details-heading">Gravy</h2>
+                        <p>Rich and savory gravy perfect for adding to your favorite dishes.</p>
+                        <p class="price">$2.00</p>
+                    </div>
+                </article>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footerContent">
+                <div class="footerIcons">
+                    <a href="http://www.linkedin.com" target="_blank">
+                        <img src="./images/64px-LinkedIn-Logo.png" alt="LinkedIn Logo" height="50">
+                    </a>
+                    <a href="http://www.youtube.com" target="_blank">
+                        <img src="./images/64px-Logo_YouTube_(en_PNG).png" alt="YouTube Logo" height="50">
+                    </a>
+                    <a href="http://www.twitter.com" target="_blank">
+                        <img src="./images/64px-X_Twitter_2.png" alt="Twitter Logo" height="50">
+                    </a>
+                    <a href="http://www.instagram.com" target="_blank">
+                        <img src="./images/instagram_icon-icons.com_65586.png" alt="Instagram Logo" height="50">
+                    </a>
+                </div>
+                <p>&copy; 2024 Gary Blue’s Diner. All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="menu.js"></script>
+</body>
+</html>
